@@ -16,6 +16,6 @@ struct Day: Codable {
     let mintemp_f           : Decimal
     let avgtemp_f           : Decimal
 
-    let daily_chance_of_rain: String
+    let daily_chance_of_rain: Int
     let condition           : Condition
 }

@@ -20,7 +20,7 @@ public class DayDisplayObject: ObservableObject {
     @Published var maxTemp: String = Constants.empty
     @Published var avgTemp: String = Constants.empty
     @Published var conditionString : String = Constants.empty
-    @Published var chanceOfRain : String = Constants.empty
+    @Published var chanceOfRain : Int = 0
     @Published var iconURL: URL = URL(string: "www.apple.com")!
 
     // MARK: - Init method
